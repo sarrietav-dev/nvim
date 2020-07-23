@@ -26,4 +26,6 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'honza/vim-snippets'
 Plug 'mhinz/vim-startify'
+Plug 'voldikss/vim-floaterm'
+Plug 'liuchengxu/vim-which-key'
 call plug#end()
