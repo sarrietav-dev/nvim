@@ -27,5 +27,6 @@
             "open"
         ],
         "v": "open:vsplit"
-    }
+    },
+    "clangd.path": "/home/sebastian/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
 }
