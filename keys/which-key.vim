@@ -24,7 +24,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
   \| autocmd BufLeave <buffer> set laststatus=2 noshowmode ruler
 
 " Single mappings
-let g:which_key_map['/'] = [ '<Plug>NERDCommenterToggle'  , 'comment' ]
+let g:which_key_map['c␣'] = [ '<Plug>NERDCommenterToggle'  , 'comment' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
 let g:which_key_map['f'] = [ ':Files'                     , 'search files' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
@@ -35,8 +35,6 @@ let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
       \ ';' : [':FloatermNew --wintype=popup --height=6'        , 'terminal'],
-      \ 'g' : [':FloatermNew lazygit'                           , 'git'],
-      \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
       \ 'n' : [':FloatermNew node'                              , 'node'],
       \ 'p' : [':FloatermNew bpython'                            , 'python'],
       \ 'r' : [':FloatermNew ranger'                            , 'ranger'],

@@ -42,6 +42,9 @@ nnoremap <Leader>O O<Esc>^Da
 "Autoindent
 map <F7> gg=G
 
+"disable highlighting after searching.
+nnoremap <leader>n :noh<CR>
+
 "Execute python with F9
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
