@@ -28,4 +28,5 @@ Plug 'honza/vim-snippets'
 Plug 'mhinz/vim-startify'
 Plug 'voldikss/vim-floaterm'
 Plug 'liuchengxu/vim-which-key'
+Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 call plug#end()
