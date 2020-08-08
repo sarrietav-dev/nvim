@@ -11,8 +11,6 @@ Plug 'vim-airline/vim-airline'
 "Plug 'scrooloose/nerdtree'
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Keeping up to date with master
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 Plug 'godlygeek/tabular'
 
 "Git Integration
