@@ -9,6 +9,7 @@
         "json",
         "python"
     ],
+
     // python config
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
@@ -16,6 +17,7 @@
         "UltiSnips",
         "~/.config/nvim/utils/snips"
     ],
+
     // explorer
     "explorer.width": 30,
     "explorer.icon.enableNerdfont": true,
