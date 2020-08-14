@@ -185,3 +185,6 @@ let g:coc_explorer_global_presets = {
 nmap <space>e :CocCommand explorer<CR>
 nmap <space>f :CocCommand explorer --preset floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+" Auto Install these languages.
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python', 'coc-sql', 'coc-clangd']
