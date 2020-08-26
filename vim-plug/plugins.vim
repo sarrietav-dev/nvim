@@ -35,4 +35,5 @@ Plug 'turbio/bracey.vim' " Web dev live server
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
+Plug 'Glench/Vim-Jinja2-Syntax'
 call plug#end()
