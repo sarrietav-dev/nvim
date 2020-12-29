@@ -1,6 +1,6 @@
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'machakann/vim-highlightedyank'
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'skbolton/embark'
 Plug 'jiangmiao/auto-pairs'
@@ -35,5 +35,9 @@ Plug 'turbio/bracey.vim' " Web dev live server
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-Plug 'Glench/Vim-Jinja2-Syntax'
+"Plug 'Glench/Vim-Jinja2-Syntax'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 call plug#end()
