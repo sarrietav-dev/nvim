@@ -44,3 +44,5 @@ cmap w!! w !sudo tee %
 "For syntax highlighting
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+
+autocmd BufEnter *.{js,jsx,ts,tsx} :setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
