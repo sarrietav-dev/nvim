@@ -45,6 +45,8 @@ Plug 'airblade/vim-rooter' " Changes pwd to root
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 call plug#end()
