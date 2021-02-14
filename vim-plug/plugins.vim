@@ -1,14 +1,17 @@
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'machakann/vim-highlightedyank'
+"
+" Colorschemes
 "Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
-Plug 'skbolton/embark'
+
+Plug 'machakann/vim-highlightedyank'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sbdchd/neoformat'
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-airline/vim-airline'
 "Plug 'scrooloose/nerdtree'
+
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'godlygeek/tabular'
@@ -19,13 +22,13 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'} " Ranger
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'honza/vim-snippets'
 Plug 'mhinz/vim-startify'
-Plug 'voldikss/vim-floaterm'
-Plug 'liuchengxu/vim-which-key'
+Plug 'voldikss/vim-floaterm' " Floating terminal
+Plug 'liuchengxu/vim-which-key' " Key bindings
 Plug 'ryanoasis/vim-devicons'
 Plug 'mattn/emmet-vim'
 Plug 'turbio/bracey.vim' " Web dev live server
@@ -34,10 +37,13 @@ Plug 'turbio/bracey.vim' " Web dev live server
 "fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-rooter'
-"Plug 'Glench/Vim-Jinja2-Syntax'
+Plug 'airblade/vim-rooter' " Changes pwd to root
+"Plug 'Glench/Vim-Jinja2-Syntax' " For Django
+"
+"JavaScript / TypeSscript / JSX
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+"Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
 call plug#end()
