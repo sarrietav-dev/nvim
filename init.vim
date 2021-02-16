@@ -12,6 +12,7 @@ source $HOME/.config/nvim/plug-config/fugitive.vim
 source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/plug-config/dart.vim
 "source $HOME/.config/nvim/plug-config/pydocstring.vim
 source $HOME/.config/nvim/themes/airline.vim
 "source $HOME/.config/nvim/themes/onedark.vim
