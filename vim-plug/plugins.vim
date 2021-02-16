@@ -48,5 +48,8 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+"
+" Dart / Flutter
+Plug 'dart-lang/dart-vim-plugin'
 
 call plug#end()
