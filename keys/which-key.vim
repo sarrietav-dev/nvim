@@ -31,6 +31,8 @@ let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['r'] = [ ':Ranger'                    , 'ranger' ]
 let g:which_key_map['S'] = [ ':Startify'                  , 'start screen' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
+let g:which_key_map['E'] = ['<space>E :CocCommand explorer --preset floating<CR>', 'explorer Floating']
+let g:which_key_map['n'] = [ 'noh'                     , 'hide highlight']
 
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
@@ -68,8 +70,8 @@ let g:which_key_map.g = {
       \ 'G' : [':Gstatus'                          , 'status'],
       \ 'h' : [':GitGutterLineHighlightsToggle'    , 'highlight hunks'],
       \ 'H' : ['<Plug>(GitGutterPreviewHunk)'      , 'preview hunk'],
-      \ 'j' : ['<Plug>(GitGutterNextHunk)'         , 'next hunk'],
-      \ 'k' : ['<Plug>(GitGutterPrevHunk)'         , 'prev hunk'],
+      \ 'j' : ['<plug>(signify-next-hunk)'         , 'next hunk'],
+      \ 'k' : ['<plug>(signify-prev-hunk)'         , 'prev hunk'],
       \ 'l' : [':Git log'                          , 'log'],
       \ 'p' : [':Git push'                         , 'push'],
       \ 'P' : [':Git pull'                         , 'pull'],
