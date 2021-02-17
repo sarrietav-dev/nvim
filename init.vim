@@ -16,5 +16,6 @@ source $HOME/.config/nvim/plug-config/dart.vim
 "source $HOME/.config/nvim/plug-config/pydocstring.vim
 source $HOME/.config/nvim/themes/airline.vim
 "source $HOME/.config/nvim/themes/onedark.vim
-source $HOME/.config/nvim/themes/dracula.vim
+"source $HOME/.config/nvim/themes/dracula.vim
+source $HOME/.config/nvim/themes/nord.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
