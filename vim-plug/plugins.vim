@@ -3,8 +3,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Colorschemes
 "Plug 'morhetz/gruvbox'
 "Plug 'joshdick/onedark.vim'
-"Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'arcticicestudio/nord-vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
+""Plug 'arcticicestudio/nord-vim'
 
 Plug 'machakann/vim-highlightedyank'
 Plug 'jiangmiao/auto-pairs'
