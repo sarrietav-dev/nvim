@@ -34,6 +34,7 @@ Plug 'liuchengxu/vim-which-key' " Key bindings
 Plug 'ryanoasis/vim-devicons'
 Plug 'mattn/emmet-vim'
 Plug 'turbio/bracey.vim' " Web dev live server
+Plug 'myusuf3/numbers.vim'
 "Plug 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 
 "fzf
