@@ -187,7 +187,7 @@ nmap <space>E :CocCommand explorer --preset floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
 " Auto Install these languages.
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python', 'coc-sql', 'coc-clangd', 'coc-explorer', 'coc-eslint', 'coc-flutter', 'coc-snippets']
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python', 'coc-sql', 'coc-explorer', 'coc-eslint', 'coc-flutter', 'coc-snippets', 'coc-go']
 
 
 if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
