@@ -1,7 +1,4 @@
 " set leader key
-nnoremap <SPACE> <Nop>
-let mapleader = " "
-
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
@@ -46,3 +43,7 @@ autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 
 autocmd BufEnter *.{js,jsx,ts,tsx} :setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+augroup fmt
+  autocmd!
+  autocmd BufWritePre * undojoin | Neoformat
+augroup END
